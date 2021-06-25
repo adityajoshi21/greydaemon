@@ -11,7 +11,7 @@ void intersection(int *arr1, int *arr2, int n, int m)
 	int j = 0;
 
 	 
-    while (i < m && j < n) {
+    while (i < n && j < m) {
         if (arr1[i] < arr2[j])
             i++;
         else if (arr2[j] < arr1[i])
