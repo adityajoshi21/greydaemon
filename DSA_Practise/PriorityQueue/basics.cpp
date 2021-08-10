@@ -66,7 +66,7 @@ public:
    break;
    } //we've reached the root node
    int temp= p[minIndex];
-     pq[parentIndex]= pq[minIndex];
+     pq[minIndex]= pq[parentIndex]; //swapping parent's value with min value
      pq[parentIndex]=temp;
      
      //setting indices for the next iteration
