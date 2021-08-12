@@ -65,7 +65,7 @@ public:
    else if(minIndex==parentIndex){
    break;
    } //we've reached the root node
-   int temp= p[minIndex];
+   int temp= pq[minIndex];
      pq[minIndex]= pq[parentIndex]; //swapping parent's value with min value
      pq[parentIndex]=temp;
      
